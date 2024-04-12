@@ -120,14 +120,6 @@ span {
     margin: 0px 5px;
 }
 
-
-
-body{
-    background: url('back.jpg');
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-}
 nav{
 	display: flex;
     background: green;
