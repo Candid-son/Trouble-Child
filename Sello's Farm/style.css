@@ -170,7 +170,7 @@ dr{
 }
 
 dd {
-    color: #00abf0;
+    color: white;
 }
 
 body{
@@ -225,7 +225,7 @@ nav ul li a:hover {
 .about-us p{
     font-size: 18px;
     line-height: 1.5;
-    color: green;
+    color: white;
     margin-bottom: 20px;
 }
 
