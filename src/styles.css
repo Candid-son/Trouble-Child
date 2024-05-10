@@ -1,0 +1,1157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Nunito&family=Quicksand:wght@300&display=swap');
+@media only screen (max-width: 414px);
+
+
+body {
+    margin-top: -3vh;
+    padding: 2vh;
+    box-sizing: border-box;
+    background-color: #FEFDF6;
+}
+
+.header { 
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.firstHeaderElements {
+    width: 45%;
+    height: 100%;
+}
+
+.headerLinks {
+    display: flex;
+    flex-direction: row
+}
+
+.logo {
+    width: 30vh;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    margin-bottom: 15vh;
+}
+
+.logoIcon {
+    width: 6vh;
+    height: 4vh;
+}
+
+.logoName {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 28px;
+}
+
+.links {
+    width: 50vh;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-left: 50vh;
+}
+
+.link {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.headerTitle_container {
+    width: 35vh;
+    margin-left: 6vh;
+}
+
+.headerTitle {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 510;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.headerDesc {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    width: 52vh;
+    text-align:justify;
+    margin-top: 6vh;
+    margin-left: 6vh;
+}
+
+.headerBtn {
+    width: 25vh;
+    height: 5vh;
+    background-color: #242A28;
+    border: none;
+    border-radius: 3vh;
+    margin-top: 5vh;
+    margin-left: 17vh;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #b39069;
+    cursor: pointer;
+}
+
+.headerBtn:hover {
+    background-color: #353d3a;
+}
+
+.secondHeaderElements {
+    width: 55%;
+    height: 100%;
+    padding-top: 5vh;
+}
+
+.headerImgDerco {
+    width: 35vh;
+    height: 30vh;
+    background-color: transparent;
+    border: 2px solid #80674A;
+    border-bottom-left-radius: 5vh;
+    margin-top: -44vh;
+    margin-left: -4.2vh;
+}
+
+.headerImgDercoOne {
+    width: 30vh;
+    height: 38vh;
+    background-color: #d6bb9c;
+    margin-top: -45vh;
+    margin-left: 68%;
+    border-bottom-right-radius: 3vh;
+}
+
+.headerImg {
+    width: 50vh;
+    height: 40vh;
+    border-radius: 3vh;
+    margin-top: -35vh;
+    margin-left: 0vh;
+    position: relative;
+}
+
+.headerImgOne {
+    width: 40vh;
+    height: 50vh;
+    border-radius: 3vh;
+    margin-left: 53vh;
+}
+
+.headerImgTwo {
+    width: 35vh;
+    height: 30vh;
+    border-radius: 2vh;
+    margin-left: 30vh;
+    margin-top: -15vh;
+    position: relative;
+}
+
+.aboutUs {
+    height: 50vh;
+    width: 97%;
+    margin-left: 1%;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+}
+
+.aboutUsBackground {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutUsOverlay {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: -50vh;
+    padding-top: 7vh;
+    padding-left: 6vh;
+}
+
+.aboutUsTitle {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    color: #080a09;
+}
+
+.aUTitle_underline {
+    width: 15vh;
+    height: 0.5vh;
+    background-color: #432818;
+    margin-left: 1.5%;
+}
+
+.footer_first_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_line {
+    width: 70%;
+    height: 0.5vh;
+    background-color: #FEFDF6;
+    margin-left: 1.5%;
+}
+
+.aboutUsDesc {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    width: 85vh;
+    text-align: left;
+    margin-left: 1vh;
+    color: #0b0e0c;
+}
+
+.aboutUsBtn {
+    width: 30vh;
+    height: 5vh;
+    background-color: #432818;
+    border: none;
+    margin-top: 4vh;
+    margin-left: 16%;
+    font-size: 13px;
+    color: #0b0e0c;
+    cursor: pointer;
+}
+
+.aboutUsBtn:hover {
+    background-color: #50301e;
+}
+
+.tourPackages {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7vh;
+}
+
+.tourPackages_title {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 520;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 40%;
+    color: #432818;
+}
+
+.tourPackages_titleLine {
+    height: 0.3vh;
+    width: 28vh;
+    background-color: #915736;
+    margin-left: 43%;
+    margin-bottom: 3vh;
+}
+
+.tourPackages_details {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    justify-content: space-between;
+}
+
+.adventure {
+    width: 23%;
+    height: 100%;
+    background-color: #E8E3DD;
+    padding-left: 2vh;
+}
+
+.adventureTitle_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+
+.adventureTitleLine {
+    width: 0.24vh;
+    height: 13vh;
+    background-color: #432818;
+}
+
+.adventureTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #432818;
+    width: 20vh;
+    margin-left: 1vh;
+}
+
+.adventureTitleCircle {
+    width: 18vh;
+    height: 12vh;
+    background-color: #DECEBF;
+    opacity: 0.5;
+    border-top-left-radius: 25vh;
+    border-bottom-left-radius: 5vh;
+    border-bottom-right-radius: 40vh;
+    margin-top: -2vh;
+    margin-left: 3vh;
+}
+
+.adventureImgCircle {
+    display: flex;
+    flex-direction: row;
+    margin-top: -1vh;
+}
+
+.adventureImgDetails {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+}
+
+.adventureText {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    font-size: 12px;
+    color: #1a0f0a;
+    width: 30vh;
+    margin-left: 11vh;
+    margin-top: 0.5vh;
+}
+
+.adventureBigCircle {
+    width: 25vh;
+    height: 25vh;
+    background-color: #DECEBF;
+    opacity: 0.5;
+    border-top-left-radius: 10vh;
+    border-bottom-left-radius: 40vh;
+    border-bottom-right-radius: 5vh;
+    margin-left: -40vh;
+    margin-top: 20vh;
+}
+
+.adventureImg {
+    width: 28vh;
+    height: 40vh;
+    border-top-left-radius: 20vh;
+    margin-left: 26%;
+}
+
+.adventureBtnContent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 3vh;
+}
+
+.adventureBtn {
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #301c11;
+}
+
+.adventureBtn:hover {
+    color: #794631;
+}
+
+.adventureBtnLine {
+    width: 11vh;
+    height: 0.3vh;
+    background-color: #432818;
+    margin-left: 1vh;
+    align-self:last baseline;
+    margin-right: 4%;
+}
+
+.adventurePrice {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #a38270;
+    margin-top: 1.5%;
+}
+
+.cultural {
+    width: 23%;
+    height: 100%;
+    background-color: #E8E3DD;
+}
+
+.culturalTitle_con {
+    width: 75%;
+    height: 36%;
+    background-color: transparent;
+    border-bottom-left-radius: 16vh;
+    border-bottom-right-radius: 16vh;
+    border-bottom: 2px solid #1a0f0a;
+    border-left: 2px solid #1a0f0a;
+    border-right: 2px solid #1a0f0a;
+    margin-left: 12.5%;
+    padding-top: 6%;
+}
+
+.culturalTitle {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: #1a0f0a;
+    margin-left: 18%;
+}
+
+.culturalTitleTwo {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: #1a0f0a;
+    margin-left: 30%;
+}
+
+.culturalImg {
+    width: 75%;
+    height: 42vh;
+    border-top-left-radius: 16vh;
+    border-top-right-radius: 16vh;
+    margin-left: 12.5%;
+    margin-top: -33%;
+}
+
+.culturalText {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    font-size: 12px;
+    color: #1a0f0a;
+    width: 30vh;
+    margin-left: 14%;
+    margin-bottom: 3%;
+}
+
+.culturalBtnContent {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 16.5%;
+}
+
+.culturalBtn {
+    cursor: pointer;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: #432818;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+
+.culturalBtnLine {
+    width: 5vh;
+    height: 0.3vh;
+    background-color: #432818;
+}
+
+.culturalPrice {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #a38270;
+    margin-left: 2.5%;
+}
+
+.culturalBtn:hover {
+    color: #8a5139;
+}
+
+.family {
+    width: 23%;
+    height: 100%;
+    background-color: #E8E3DD;
+}
+
+.familyTitle {
+    width: 20vh;
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.familyTitleOne {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    color: #301c13;
+    margin-left: 10%;
+}
+
+.familyMid {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.familyMid_contents {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    margin-right: 34%;
+}
+
+.familyMid_Fcontents {
+    width: 15%;
+    height: 100%;
+    display: flex;
+}
+
+.familyTitleTwo {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    color: #1a0f0a;
+    margin-left: 15%;
+}
+
+.cicleIcon {
+    color: #42271a;
+    font-size: 7px;
+    margin-right: 0.5vh;
+}
+
+.familyText {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    font-size: 13px;
+    color: #1a0f0a;
+    width: 30vh;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+    position: absolute;
+    margin-top: 17.5%;
+    margin-left: 2.8%;
+}
+
+.familyBuy_container {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9%;
+}
+
+.familyBtn_contents {
+    width: 100%;
+    height: 32%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.familyBtnLine {
+    width: 3vh;
+    height: 0.3vh;
+    background-color: #432818
+}
+
+.familyBtn {
+    cursor: pointer;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
+    color: #1a0f0a;
+}
+
+.familyBtn:hover {
+    color: #794631;
+}
+
+.familyPrice {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #a38270;
+    margin-top: 1.5%;
+    margin-left: 64%;
+}
+
+.topLines {
+    display: flex;
+    flex-direction: row;
+}
+
+.straightLine {
+    width: 0.3vh;
+    height: 9vh;
+    background-color: #cfc0b1;
+    margin-left: 50%;
+}
+
+.curvyLine {
+    width: 9vh;
+    height: 8vh;
+    background-color: transparent;
+    border: 2px solid #cfc0b1;
+    border-top: transparent;
+    border-right: transparent;
+    border-bottom-left-radius: 8vh;
+    margin-left: 27%;
+}
+
+.familyImg {
+    width: 18vh;
+    height: 18vh;
+    border-radius: 10vh;
+    margin-left: 28%;
+}
+
+.bottomLines {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomCurvyLine {
+    width: 6vh;
+    height: 5vh;
+    background-color: transparent;
+    border: 2px solid #cfc0b1;
+    border-bottom: transparent;
+    border-left: transparent;
+    border-top-right-radius: 8vh;
+    margin-top: 8%;
+}
+
+.bottomStraightLine {
+    width: 0.3vh;
+    height: 9vh;
+    background-color: #cfc0b1;
+    margin-left: 35%;
+}
+
+.luxury {
+    width: 23%;
+    height: 100%;
+    background-color: #E8E3DD;
+    padding-right: 2vh;
+}
+
+.luxuryTitle_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+
+.luxuryTitleLine {
+    width: 0.24vh;
+    height: 13vh;
+    background-color: #432818;
+}
+
+.luxuryTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #432818;
+    width: 20vh;
+}
+
+.luxuryTitleCircle {
+    width: 18vh;
+    height: 12vh;
+    background-color: #DECEBF;
+    opacity: 0.5;
+    border-top-right-radius: 25vh;
+    border-bottom-right-radius: 5vh;
+    border-bottom-left-radius: 40vh;
+    margin-top: -5%;
+    margin-right: 10%;
+}
+
+.luxuryImgCircle {
+    display: flex;
+    flex-direction: row;
+    margin-top: -1vh;
+}
+
+.luxuryImgDetails {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    margin-left: 8%;
+}
+
+.luxuryText {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    font-size: 12px;
+    color: #1a0f0a;
+    width: 30vh;
+    margin-top: 0.5vh;
+}
+
+.luxuryBigCircle {
+    width: 30vh;
+    height: 25vh;
+    background-color: #DECEBF;
+    opacity: 0.5;
+    border-top-right-radius: 100vh;
+    border-bottom-right-radius: 45vh;
+    border-bottom-left-radius: 25vh;
+    margin-top: 20vh;
+}
+
+.luxuryImg {
+    width: 28vh;
+    height: 40vh;
+    border-top-right-radius: 20vh;
+}
+
+.luxuryBtnContent{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 3vh;
+    margin-left: 8%;
+}
+
+.luxuryBtn {
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    color: #301c11;
+}
+
+.luxuryBtn:hover {
+    color: #794631;
+}
+
+.luxuryBtnLine {
+    width: 11vh;
+    height: 0.3vh;
+    background-color: #432818;
+    margin-right: 1vh;
+    margin-left: 4%;
+    align-self:last baseline;
+}
+
+.luxuryPrice {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #a38270;
+    margin-top: 1.5%;
+}
+
+.quickServices {
+    height: 140vh;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    margin-left: 5%;
+}
+
+.quickServicesTitle { 
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 520;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 40%;
+    margin-bottom: 1%;
+    color: #432818; 
+}
+
+.quickServicesFields {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+.trasportation_container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.trasportation_details {
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+.trasportation_title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 590;
+    color: #432818;
+    margin-top: 10%;
+}
+
+.trasportation_desc {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 590;
+    width: 70%;
+    text-align: justify;
+    color: #070503;
+    margin-left: 1.5%;
+}
+
+.availableVehicles {
+    width: 74%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.custom-icon {
+    color: #cabcb5; 
+    font-size: 14px;
+    cursor: pointer; 
+}
+.custom-icon:hover {
+    color: #e7ded9;  
+}
+
+.basicCar_container {
+    width: 90%;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid #ebe4e1;
+    margin-bottom: 1.2%;
+}
+
+.boat_container {
+    width: 90%;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_title {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.basicCar_title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #91837c;
+    margin-left: 4%;
+}
+
+.basicCar_price {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 599;
+    color: #29180f;
+}
+
+.trasportation_images {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.transImgOne {
+    height: 100%;
+    width: 70%;
+}
+
+.special_alert {
+    color: #0f0906;
+}
+
+.transSmallImages {
+    width: 32%;
+    height: 40%;
+    position: relative;
+    margin-top: 9%;
+    margin-left: -8%;
+}
+
+.transImgTwo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.transImgThree {
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    z-index: 3;
+}
+
+.transButton {
+    width: 30vh;
+    height: 4.5vh;
+    background-color: #7a4a2e;
+    border: none;
+    border-radius: 4vh;
+    font-size: 14px;
+    color: #0f0906;
+    margin-top: 5%;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+.transButton:hover {
+    background-color: #995d3a;
+}
+
+.guide_container {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.guide_title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 590;
+    color: #432818;
+    margin-top: 22%;
+}
+
+.guide_desc {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 590;
+    width: 70%;
+    text-align: justify;
+    color: #070503;
+    margin-left: 1.5%;
+}
+
+.guide_images {
+    width: 50%;
+    height: 100%;
+}
+
+.guideImg {
+    height: 100%;
+    width: 75%;
+    margin-left: 5%;
+}
+
+.guide_details {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hireGuide_container {
+    width: 66%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3.5%;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.hireGuide_text {
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #382117;
+}
+
+.hireGuide_container:hover .hireGuide_text {
+    color: #92563d;
+}
+
+.hireGuide_line {
+    background-color: #492b1e;
+    width: 30%;
+    height: 0.3vh;
+}
+
+.hireGuide_container:hover .hireGuide_line{
+    background-color: #a16044;
+}
+
+.footer_icon {
+    height: 3vh;
+    width: 3vh;
+}
+
+.footer_container1 {
+    height: 30vh;
+    width: 95%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #b39069;
+    border-top: 2px solid #f5eade;
+    margin-left: 2.5%;
+   
+}
+
+.footer_head {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2vh;
+}
+
+.form-row{
+    padding: 1vh;
+}
+
+.icons_div {
+    display: flex;
+    align-items: center;
+    width: 30vh;
+    padding: 5vh;
+    justify-content: space-around;
+}
+
+.footer_details {
+
+    align-items: center;
+    justify-content: center;
+    color: #694e2f;
+}
+
+.footer_text {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer_container2 {
+    height: 20vh;
+    margin-left: 2.5%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-top: 2px solid #f5eade;
+}
+
+.email_input{
+    border-radius: 3vh;
+    border: none;
+    height: 3vh;
+    background-color: #5e4b36;
+}
+
+.bell-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+
+.bell {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    animation: shake 3s infinite;
+    margin-left: 19%;
+    margin-top: -12%;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: rotate(0deg);
+    }
+    20% {
+      transform: rotate(10deg);
+    }
+    40% {
+      transform: rotate(-10deg);
+    }
+    60% {
+      transform: rotate(10deg);
+    }
+    80% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .btn{
+    height: 6vh;
+    border-radius: 3vh;
+    font-family: 'Quicksand', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #381d0e;
+    border: none;
+  }
+
+  .btn:hover{
+    background-color: #613b26;
+    font-family: 'Quicksand', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: medium;
+    cursor: pointer;
+  }
