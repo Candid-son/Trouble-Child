@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Nunito&family=Quicksand:wght@300&display=swap');
-@media only screen (max-width: 414px);
+
 
 
 body {
@@ -1034,6 +1034,36 @@ body {
     background-color: #a16044;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.inner{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+p{
+    width: 52vh;
+    text-align:justify; 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    font-weight: 590;
+    color: #070503;
+}
+
 .footer_icon {
     height: 3vh;
     width: 3vh;
@@ -1046,6 +1076,7 @@ body {
     color: #b39069;
     border-top: 2px solid #f5eade;
     margin-left: 2.5%;
+    margin-top: 590px;
    
 }
 
@@ -1155,3 +1186,10 @@ body {
     font-size: medium;
     cursor: pointer;
   }
+
+@media screen and (max-width: 600px){
+.col{
+    flex: 100%;
+    max-width: 100%;
+}
+}
